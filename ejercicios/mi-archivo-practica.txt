@@ -1,0 +1,86 @@
+ARCHIVO DE PRACTICA - MANUAL DE VI
+Abre este archivo con: vi ejercicios/mi-archivo-practica.txt
+Sigue cada bloque en orden. Las lineas que empiezan con # son instrucciones,
+dejalas ahi como referencia mientras practicas (puedes borrarlas al final).
+
+# ===================================================
+# EJERCICIO 1 - MODOS Y CREACION (docs/01-modos-y-creacion.md)
+# ===================================================
+# Instruccion: presiona "i" para entrar a insercion y escribe tu nombre
+# en la linea de abajo. Luego presiona Esc para volver a modo normal.
+
+
+# ===================================================
+# EJERCICIO 2 - NAVEGACION (docs/02-navegacion.md)
+# ===================================================
+# Instruccion: usa gg para saltar al inicio del archivo y G para ir al final.
+# Instruccion: sobre las 5 lineas de abajo, practica moverte con h j k l,
+# y luego salta entre palabras con w y b.
+linea uno de practica con varias palabras para navegar
+linea dos con mas palabras todavia para seguir practicando
+linea tres corta
+linea cuatro un poco mas larga que las anteriores
+linea cinco y final de este bloque de navegacion
+
+# ===================================================
+# EJERCICIO 3 - EDICION Y DESHACER (docs/03-edicion-y-deshacer.md)
+# ===================================================
+# Instruccion: la siguiente linea tiene errores. Corrigelos con x, r y dw.
+# Luego practica u para deshacer un cambio y Ctrl+r para rehacerlo.
+Esta linea tieen un error ortografico y una palbra mal escrita
+
+# Instruccion: la siguiente linea esta repetida por error. Borra
+# la linea completa con dd.
+Esta linea no deberia estar repetida en el archivo
+Esta linea no deberia estar repetida en el archivo
+
+# ===================================================
+# EJERCICIO 4 - COPIAR Y PEGAR (docs/04-copiar-y-pegar.md)
+# ===================================================
+# Instruccion: copia la siguiente linea con yy y pegala tres lineas mas
+# abajo con p.
+Copia esta linea de configuracion y pegala mas abajo
+
+# Instruccion: copia solo la primera palabra de la siguiente linea con yw
+# y pegala al final de otra linea con p.
+importante otras palabras que no necesitas copiar aqui
+
+# ===================================================
+# EJERCICIO 5 - BUSCAR Y REEMPLAZAR (docs/05-buscar-y-reemplazar.md)
+# ===================================================
+# Instruccion: busca la palabra "localhost" con /localhost y salta entre
+# apariciones con n.
+El servidor corre en localhost por defecto
+La base de datos tambien apunta a localhost en desarrollo
+Recuerda cambiar localhost por la IP real en produccion
+
+# Instruccion: reemplaza todas las apariciones de "localhost" por
+# "127.0.0.1" con :%s/localhost/127.0.0.1/g
+
+# ===================================================
+# EJERCICIO 6 - INSERTAR TEXTO (docs/06-insertar-texto.md)
+# ===================================================
+# Instruccion: usa A para agregar un punto y coma al final de esta linea.
+const nombre = "vi"
+
+# Instruccion: usa I para agregar "// " al inicio de esta linea.
+esto deberia convertirse en un comentario
+
+# Instruccion: usa o para crear una linea nueva debajo de esta con
+# cualquier texto.
+linea de referencia para insertar debajo
+
+# Instruccion: usa O para crear una linea nueva arriba de esta con
+# cualquier texto.
+linea de referencia para insertar arriba
+
+# ===================================================
+# EJERCICIO 7 - GUARDAR Y SALIR (docs/07-guardar-y-salir.md)
+# ===================================================
+# Instruccion: guarda estos cambios sin salir con :w
+# Instruccion: cierra el archivo con ZZ y vuelve a abrirlo para confirmar
+# que todo quedo guardado.
+# Instruccion (opcional): agrega una linea mas aqui abajo y ciérrala sin
+# guardar con :q! para comprobar que NO queda guardada.
+
+FIN DEL ARCHIVO DE PRACTICA
